@@ -1,0 +1,21 @@
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.2.5",
+  "base_commit_sha": "0987f84233eb02b889668bfad7862bf36f282a31",
+  "prompts": {
+    "c9296a5a53d1fd7b": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "f2fab876-1e4e-4820-b238-a4eb36c6f9c8",
+        "model": "claude-sonnet-4-6"
+      },
+      "human_author": "Philip Kotliyakov",
+      "messages": [],
+      "total_additions": 58,
+      "total_deletions": 0,
+      "accepted_lines": 0,
+      "overriden_lines": 0
+    }
+  }
+}
