@@ -1,0 +1,45 @@
+components/Skeleton/Skeleton.module.css
+  c9296a5a53d1fd7b 1,3-34
+app/(public)/preview/page.tsx
+  c9296a5a53d1fd7b 2-3,9-22,24-25
+components/Avatar/Avatar.tsx
+  c9296a5a53d1fd7b 1-19
+components/Avatar/index.ts
+  c9296a5a53d1fd7b 1
+.claude/settings.json
+  c9296a5a53d1fd7b 1-15
+components/Avatar/Avatar.module.css
+  c9296a5a53d1fd7b 1-5
+CLAUDE.md
+  c9296a5a53d1fd7b 1-38
+components/Skeleton/Skeleton.tsx
+  c9296a5a53d1fd7b 1-20
+app/globals.css
+  c9296a5a53d1fd7b 45-58
+components/Navbar/Navbar.tsx
+  c9296a5a53d1fd7b 20
+components/Skeleton/index.ts
+  c9296a5a53d1fd7b 1
+tests/components/Avatar.test.tsx
+  c9296a5a53d1fd7b 1-20
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.2.5",
+  "base_commit_sha": "be1fd8e12c683b529e4280035b5d5eee44da25a3",
+  "prompts": {
+    "c9296a5a53d1fd7b": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "f2fab876-1e4e-4820-b238-a4eb36c6f9c8",
+        "model": "claude-sonnet-4-6"
+      },
+      "human_author": "Philip Kotliyakov",
+      "messages": [],
+      "total_additions": 191,
+      "total_deletions": 7,
+      "accepted_lines": 186,
+      "overriden_lines": 0
+    }
+  }
+}
