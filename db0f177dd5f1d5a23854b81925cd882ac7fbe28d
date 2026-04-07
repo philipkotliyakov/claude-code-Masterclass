@@ -1,0 +1,33 @@
+components/AuthForm/AuthForm.module.css
+  c9296a5a53d1fd7b 1-37
+components/AuthForm/AuthForm.tsx
+  c9296a5a53d1fd7b 2,7-8,10-12,16,18-19,22-77,79
+app/(public)/login/page.tsx
+  c9296a5a53d1fd7b 2-3,7
+app/(public)/signup/page.tsx
+  c9296a5a53d1fd7b 2,7
+tests/components/AuthForm.test.tsx
+  c9296a5a53d1fd7b 5-7,9,11,14-15,19,24-25,28-29,31-32,37,41-42,44,48-49
+_plan/auth-forms.md
+  c9296a5a53d1fd7b 1-86
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.2.5",
+  "base_commit_sha": "db0f177dd5f1d5a23854b81925cd882ac7fbe28d",
+  "prompts": {
+    "c9296a5a53d1fd7b": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "f2fab876-1e4e-4820-b238-a4eb36c6f9c8",
+        "model": "claude-sonnet-4-6"
+      },
+      "human_author": "Philip Kotliyakov",
+      "messages": [],
+      "total_additions": 315,
+      "total_deletions": 7,
+      "accepted_lines": 214,
+      "overriden_lines": 46
+    }
+  }
+}
