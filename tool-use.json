@@ -1,0 +1,43 @@
+{
+  "session_id": "f2fab876-1e4e-4820-b238-a4eb36c6f9c8",
+  "transcript_path": "/Users/philip/.claude/projects/-Users-philip-Developer-projects-claude-code-Masterclass/f2fab876-1e4e-4820-b238-a4eb36c6f9c8.jsonl",
+  "cwd": "/Users/philip/Developer/projects/claude-code-Masterclass",
+  "permission_mode": "acceptEdits",
+  "hook_event_name": "PostToolUse",
+  "tool_name": "Edit",
+  "tool_input": {
+    "file_path": "/Users/philip/Developer/projects/claude-code-Masterclass/.claude/settings.json",
+    "old_string": "          {\n            \"type\": \"command\",\n            \"command\": \"jq . > tool-use.json\"\n          },\n          {\n            \"type\": \"command\",\n            \"command\": \"jq -r '.tool_input.file_path' | { read -r f; npx prettier --write \\\"$f\\\" 2>/dev/null; } || true\"\n          }",
+    "new_string": "          {\n            \"type\": \"command\",\n            \"command\": \"jq -r '.tool_input.file_path' | { read -r f; npx prettier --write \\\"$f\\\" 2>/dev/null; } || true\"\n          }",
+    "replace_all": false
+  },
+  "tool_response": {
+    "filePath": "/Users/philip/Developer/projects/claude-code-Masterclass/.claude/settings.json",
+    "oldString": "          {\n            \"type\": \"command\",\n            \"command\": \"jq . > tool-use.json\"\n          },\n          {\n            \"type\": \"command\",\n            \"command\": \"jq -r '.tool_input.file_path' | { read -r f; npx prettier --write \\\"$f\\\" 2>/dev/null; } || true\"\n          }",
+    "newString": "          {\n            \"type\": \"command\",\n            \"command\": \"jq -r '.tool_input.file_path' | { read -r f; npx prettier --write \\\"$f\\\" 2>/dev/null; } || true\"\n          }",
+    "originalFile": "{\n  \"hooks\": {\n    \"PostToolUse\": [\n      {\n        \"matcher\": \"Write|Edit\",\n        \"hooks\": [\n          {\n            \"type\": \"command\",\n            \"command\": \"jq . > tool-use.json\"\n          },\n          {\n            \"type\": \"command\",\n            \"command\": \"jq -r '.tool_input.file_path' | { read -r f; npx prettier --write \\\"$f\\\" 2>/dev/null; } || true\"\n          }\n        ]\n      }\n    ]\n  }\n}\n",
+    "structuredPatch": [
+      {
+        "oldStart": 6,
+        "oldLines": 10,
+        "newStart": 6,
+        "newLines": 6,
+        "lines": [
+          "         \"hooks\": [",
+          "           {",
+          "             \"type\": \"command\",",
+          "-            \"command\": \"jq . > tool-use.json\"",
+          "-          },",
+          "-          {",
+          "-            \"type\": \"command\",",
+          "             \"command\": \"jq -r '.tool_input.file_path' | { read -r f; npx prettier --write \\\"$f\\\" 2>/dev/null; } || true\"",
+          "           }",
+          "         ]"
+        ]
+      }
+    ],
+    "userModified": false,
+    "replaceAll": false
+  },
+  "tool_use_id": "toolu_018iuFqcT5gMd1cwEHxdZx2G"
+}
